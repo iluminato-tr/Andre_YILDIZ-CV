@@ -1,26 +1,185 @@
+<!DOCTYPE <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andre YILDIZ CV</title>
+    <title>Andre YILDIZ - CV</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Andre Yildiz</h1>
-        <p>Chemical Engineer, Bioinformatician, Data Analyst, Data Engineer</p>
+        <div class="container">
+            <a href="#" class="logo">Andre YILDIZ</a>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a recent graduate</p>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Andre YILDIZ</h1>
+                <p>+90 5302603976 ▪ <a href="mailto:andreyildiz9@gmail.com">andreyildiz9@gmail.com</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <p>...</p>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Queen Mary University of London</h3>
+                <p><strong>MSc Bioinformatics</strong> | Sep 2023 - Sep 2024</p>
+                <p>Graduated as Distinguished</p>
+                <p>Dissertation: “Integration of Multi-Modal Data Using Denoising Autoencoders for Automatic Biomarker Discovery and Subtype Classification”</p>
+            </div>
+            <div class="education-item">
+                <h3>Koç University</h3>
+                <p><strong>Bachelor’s Degree, Biological and Chemical Engineering</strong> | 2018 – Feb 2023</p>
+                <p><strong>Minor, Economics</strong> | 2020 – Feb 2023</p>
+                <p><strong>Track Program, Biotechnology and Bioinformatics</strong> | 2021 – Feb 2023</p>
+                <p>Received Vehbi Koç Honor Award for 1 semester</p>
+                <p>Graduated with 2:1 Honours</p>
+            </div>
+            <div class="education-item">
+                <h3>University College London</h3>
+                <p><strong>UPCSE A levels</strong> | 2017 - 2018</p>
+            </div>
+            <div class="education-item">
+                <h3>Eyüboglu Science High School</h3>
+                <p>2nd place award | 2013 - 2017</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: andreyildiz9@email.com</p>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Queen Mary University of London</h3>
+                <p><strong>Dissertation (6 Months)</strong> | Apr – Sep 2024</p>
+                <ul>
+                    <li>Researched machine learning and multi-modal data integration using NGS data in application of bioinformatics and cancer research.</li>
+                    <li>Extensively used R for data processing using Biocmanager, TCGAbiolinks, dplyr, and more.</li>
+                    <li>Extensively used Python with libraries TensorFlow, sklearn, numpy, pandas, imblearn for SMOTE, xgboost, and matplotlib.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Koç University</h3>
+                <p><strong>Research Project Development and Technology Transfer Directory</strong> | Aug - Sep 2021</p>
+                <ul>
+                    <li>Assisted in project fund management and translation of documents.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Galvano Mondo KIMYA SAN.TIC.LTD.STI</h3>
+                <p><strong>Production and Quality Assurance Department</strong> | Aug – Sep 2020</p>
+                <ul>
+                    <li>Managed customers and orders and performed quality control of products.</li>
+                    <li>Learned the setup of an electrochemical factory and its operations.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Beta Kimya SAN.TIC. A.S.</h3>
+                <p><strong>Quality Control Department</strong> | Aug – Sep 2019</p>
+                <ul>
+                    <li>Performed quality control of hotmelts and controlled the conditions of raw materials.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Koç University</h3>
+                <p><strong>Work and Study Program</strong> | Fall 2018</p>
+                <ul>
+                    <li>Assisted in the research of Graphene Aerogel.</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Turkish (Native)</li>
+                    <li>English (Fluent)</li>
+                </ul>
+                <h3>Programming Languages and Tools</h3>
+                <ul>
+                    <li>Python, R, SQL, Power BI, Tableau, Unix, GitHub, ASPEN, ASPEN +, Google Collaboratory, Chimera Tool, MATLAB</li>
+                </ul>
+                <h3>Certificates</h3>
+                <ul>
+                    <li>Genomics England Information Governance and Cyber Security Awareness eLearning Course</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2>Activities</h2>
+            <div class="activities-item">
+                <h3>Koç University AICHE</h3>
+                <p><strong>Club Mentor</strong> | Spring 2020</p>
+                <ul>
+                    <li>Worked actively in the organization of events such as Career Lab.</li>
+                    <li>Managed mentees who joined events.</li>
+                </ul>
+            </div>
+            <div class="activities-item">
+                <h3>Koç University</h3>
+                <p><strong>Marketing Club Career Path Seminars</strong> | Feb 2020</p>
+            </div>
+            <div class="activities-item">
+                <h3>Eyüboglu Science High School</h3>
+                <p><strong>Arching Club Member</strong> | 2016 - 2017</p>
+            </div>
+            <div class="activities-item">
+                <h3>University of Toronto</h3>
+                <p><strong>IELTS Preparation and Intensive English Course</strong> | Aug 2015</p>
+            </div>
+            <div class="activities-item">
+                <h3>International Kangaroo Competition</h3>
+                <p>Turkey | 2015</p>
+            </div>
+            <div class="activities-item">
+                <h3>Kennedy Space Centre Visitor Complex</h3>
+                <p>2014</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:andreyildiz9@gmail.com">andreyildiz9@gmail.com</a></p>
+            <p>Phone: +90 5302603976</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Andre YILDIZ. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
