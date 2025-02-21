@@ -1,46 +1,101 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andre YILDIZ CV</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <a href="#" class = "logo"> Andre Yildiz </a>
-
-        <nav>
-            <a href="#" class = "active"> Home</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="container">
+            <a href="#" class="logo">Andre Yildiz</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="home">
-        <div class="home-content">
-            <h1>Andre Yildiz</h1>
-            <p>Biological and Chemical Engineer, Bioinformatician, Data Analyst, Data Engineer</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
 
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I am Andre</h1>
+                <p>Biological and Chemical Engineer, Bioinformatician, Data Analyst, Data Engineer</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
-        <h1>Andre Yildiz</h1>
-        <p>Chemical Engineer, Bioinformatician, Data Analyst, Data Engineer</p>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a recent graduate</p>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a recent graduate with a strong background in chemical engineering, bioinformatics, and data analysis. Passionate about solving complex problems using data-driven approaches.</p>
+        </div>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <p>...</p>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Bioinformatics</li>
+                <li>Python, R, SQL</li>
+                <li>Machine Learning</li>
+                <li>Chemical Process Modeling</li>
+            </ul>
+        </div>
     </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: andreyildiz9@email.com</p>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>Master of Science in Bioinformatics</strong> - XYZ University</p>
+            <p><strong>Bachelor of Science in Chemical Engineering</strong> - ABC University</p>
+        </div>
     </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <p><strong>Data Analyst Intern</strong> - Company XYZ (2022-2023)</p>
+            <ul>
+                <li>Analyzed large datasets to identify trends and insights.</li>
+                <li>Developed predictive models using Python and R.</li>
+            </ul>
+            <p><strong>Research Assistant</strong> - ABC Lab (2021-2022)</p>
+            <ul>
+                <li>Conducted research on chemical processes and bioinformatics tools.</li>
+                <li>Published findings in peer-reviewed journals.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:andreyildiz9@email.com">andreyildiz9@email.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Andre Yildiz. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
